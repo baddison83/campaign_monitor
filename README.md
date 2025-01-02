@@ -12,6 +12,7 @@ The google sheet itself shows all specs and guarantees for a campaign and how di
 
 
 A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. 
+![My Image](campaign_monitor_ss2.png)
 
 A user can also one-click to get all the raw data so they can build their own pivot tables.
 
