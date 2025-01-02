@@ -8,6 +8,8 @@ https://docs.google.com/spreadsheets/d/1VQ19XAFTSizaU4lb5eBKTsAt0Isj_io4HxPcOkAd
 The code in this repo is a skeleton for writing data from snowflake directly to a google sheet.
 
 The google sheet itself shows all specs and guarantees for a campaign and how different parts of the campaign are performing. 
+![My Image](campaign_monitor_ss1.png)
+
 
 A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. 
 
