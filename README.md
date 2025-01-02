@@ -9,5 +9,7 @@ The code in this repo is a skeleton for writing data from snowflake directly to 
 
 The google sheet itself shows all specs and guarantees for a campaign and how different parts of the campaign are performing. 
 
-A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. A user can also one-click to get all the raw data so they can build their own pivot tables.
+A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. 
+
+A user can also one-click to get all the raw data so they can build their own pivot tables.
 
