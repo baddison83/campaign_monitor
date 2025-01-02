@@ -20,6 +20,6 @@ The ETL process that sources data into the google sheet is in the image below. S
 - We extract impression and click data from our partners' tag managers by having reports sent to email, moving that data into S3 and then to snowflake
 - Tasks are written in snowflake notebooks using SQL and python stored procedures.
 - All orchestration takes place in snowflake via their native task orchestration tools.
- ![My Image](elt_for_campaign_monitor .png)
+ ![My Image](elt_for_campaign_monitor.png)
 
 
