@@ -5,11 +5,8 @@ In my experience most consumers of data in companies - product managers, markete
 Accordingly I led a cross-functional effort involving content, CRM, eng and Biz Dev teams to build a campaign monitoring tool that surfaces all data and insights for campaigns directly into a Google sheet
 https://docs.google.com/spreadsheets/d/1VQ19XAFTSizaU4lb5eBKTsAt0Isj_io4HxPcOkAdzbg/edit?gid=1875806440#gid=1875806440
 
-The code in this repo is a skeleton for writing data from snowflake directly to a google sheet.
-
 The google sheet itself shows all specs and guarantees for a campaign and how different parts of the campaign are performing. 
 ![My Image](campaign_monitor_ss1.png)
-
 
 A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. Some highlights:
 - Users can filter for any IO in the top left
@@ -25,4 +22,4 @@ The ETL process that sources data into the google sheet is in the image below. S
 - All orchestration takes place in snowflake via their native task orchestration tools.
  ![My Image](elt_for_campaign_monitor.png)
 
-
+The code in this repo is a skeleton for writing data from snowflake directly to a google sheet.
