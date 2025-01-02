@@ -11,7 +11,10 @@ The google sheet itself shows all specs and guarantees for a campaign and how di
 ![My Image](campaign_monitor_ss1.png)
 
 
-A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. 
+A user can click into various filters on the left side of the Campaign Monitor tab and the data will update. Some highlights:
+- Users can filter for any IO in the top left
+- Filters change the output starting in row 14. The filters control the SELECT and WHERE clauses in a SQL statement to produce the output
+- A custom google apps script controls the formatting of dates, numbers-in-thousands and percentages in the output columns.
 ![My Image](campaign_monitor_ss2.png)
 
 A user can also one-click to get all the raw data so they can build their own pivot tables.
